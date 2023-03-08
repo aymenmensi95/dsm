@@ -3,9 +3,6 @@ run-name: ${{ github.actor }} is deploying Storybook 🚚
 on: [push] # Trigger the action only when files change in the folders defined here
 jobs:
   build-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.build-publish.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️

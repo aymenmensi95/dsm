@@ -14,10 +14,9 @@ jobs:
           npm install
           npm run build-storybook
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+       uses: chromaui/action@v1
+        # Options required for Chromatic's GitHub Action
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main # The branch the action should deploy to.
-          folder: build # The folder that the build-storybook script generates files.
-          clean: true # Automatically remove deleted files from the deploy branch
-          target_folder: build # The folder that we serve our Storybook files from
+          #👇 Chromatic projectToken,
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}

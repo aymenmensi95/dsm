@@ -21,10 +21,9 @@
   },
   "scripts": {
     "start": "start-storybook -p 6006 -s public",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build-storybook",
     "deploy": "gh-pages -d build",
-    "build-storybook": "build-storybook -o dist -s ./src/stories/assets",
-    "build": "react-scripts build",
+    "build-storybook": "build-storybook -o build -s ./src/stories/assets",
     "test": "react-scripts test"
   },
   "eslintConfig": {

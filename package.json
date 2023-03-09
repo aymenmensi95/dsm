@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "start-storybook -p 6006 -s public",
-    "build": "build-storybook -o dist -s ./src/stories/assets",
+    "build": "build-storybook -o dist -s ./src/assets",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "react-scripts test"

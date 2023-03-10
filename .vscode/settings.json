@@ -1,0 +1,5 @@
+{
+  "cSpell.words": ["linebreak"],
+  "cSpell.ignorePaths": ["**/*.link"],
+  "cSpell.enableFiletypes": ["mdx"]
+}

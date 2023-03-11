@@ -1,11 +1,16 @@
 {
   "homepage": "https://aymenmensi95.github.io/dsm",
   "name": "@aymenmensi95/dsm",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "description": "STILL NO DOCS",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "files": [
+    "index.ts",
+    "src/**/*",
+    "tailwind/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aymenmensi95/dsm.git"

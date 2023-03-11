@@ -4,7 +4,7 @@ permissions:
   contents: write
 jobs:
   build-and-deploy:
-    needs: run-lint-all
+    needs: Clean Code / run-lint-all
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:

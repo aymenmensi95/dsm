@@ -4,6 +4,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
+  plugins: ['react', '@typescript-eslint'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -11,7 +12,6 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'prettier',
   ],
-  overrides: [],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
@@ -20,9 +20,5 @@ module.exports = {
       jsx: true,
       tsx: true,
     },
-  },
-  plugins: ['react', '@typescript-eslint'],
-  rules: {
-    'linebreak-style': ['error', 'windows'],
   },
 };

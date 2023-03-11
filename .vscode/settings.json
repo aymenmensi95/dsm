@@ -1,0 +1,9 @@
+{
+  "cSpell.words": ["linebreak", "semistandard", "stylelint", "tailwindcss"],
+  "cSpell.ignorePaths": ["**/*.link"],
+  "cSpell.enableFiletypes": ["mdx"],
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "tailwindCSS.validate": true
+}

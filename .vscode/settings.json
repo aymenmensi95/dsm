@@ -1,5 +1,5 @@
 {
-  "cSpell.words": ["linebreak", "semistandard", "stylelint", "tailwindcss"],
+  "cSpell.words": ["aymenmensi", "linebreak", "semistandard", "stylelint", "tailwindcss"],
   "cSpell.ignorePaths": ["**/*.link"],
   "cSpell.enableFiletypes": ["mdx"],
   "editor.codeActionsOnSave": { "source.fixAll.eslint": true },

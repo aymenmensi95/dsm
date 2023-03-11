@@ -1,8 +1,32 @@
 {
   "homepage": "https://aymenmensi95.github.io/dsm",
   "name": "dsm",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
+  "description": "STILL NO DOCS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aymenmensi95/dsm.git"
+  },
+  "keywords": [
+    "dsm",
+    "design",
+    "system",
+    "tailwind",
+    "react",
+    "typescript",
+    "UI",
+    "kit"
+  ],
+  "author": "Aymen Mensi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aymenmensi95/dsm/issues"
+  },
+  "publishConfig": {
+    "@aymenmensi95:registry": "https://npm.pkg.github.com"
+  },
   "dependencies": {
     "@testing-library/dom": "^9.0.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -93,3 +117,4 @@
     "webpack": "^5.75.0"
   }
 }
+

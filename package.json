@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "private": false,
   "description": "STILL NO DOCS",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aymenmensi95/dsm.git"
@@ -46,6 +46,7 @@
   "scripts": {
     "start": "start-storybook -p 6006 -s public",
     "build": "build-storybook -o dist -s ./src/assets",
+    "build:package": "react-scripts build ./index.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "react-scripts test",

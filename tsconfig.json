@@ -18,6 +18,6 @@
     "noEmit": true,
     "jsx": "preserve"
   },
-  "include": ["./src/**/*"],
+  "include": ["index.js, src/**/*", "tailwind/*"],
   "exclude": ["./build/**/*", "./node_modules"]
 }

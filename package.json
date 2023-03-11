@@ -6,10 +6,6 @@
   "description": "STILL NO DOCS",
   "main": "build/index.js",
   "types": "build/index.d.ts",
-  "files": [
-    "src/**/*",
-    "tailwind/*"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aymenmensi95/dsm.git"

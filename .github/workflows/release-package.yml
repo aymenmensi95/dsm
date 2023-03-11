@@ -1,14 +1,12 @@
 name: Publish Package
-on:
-  push:
-    tags:
-      - v*
+on: [push]
+
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout 🛎️
         uses: actions/checkout@v3
 
       - name: Setup Node.js
@@ -16,10 +14,12 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Install dependencies
-        run: npm i
+      - name: Install and Build 🔧
+        run: |
+          npm ci
+          npm run build
 
-      - name: Publish to NPM
+      - name: Publish 📦
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

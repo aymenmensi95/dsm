@@ -17,7 +17,5 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve"
-  },
-  "include": ["./index.js, ./src/**/*", "tailwind/*"],
-  "exclude": ["./build/**/*", "./node_modules"]
+  }
 }

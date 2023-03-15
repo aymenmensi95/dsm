@@ -53,7 +53,8 @@
     "lint:fix": "eslint --fix ./**/*.{js,jsx,ts,tsx,json}",
     "lint:prettier": "prettier --write ./**/*.{js,jsx,ts,tsx,css,scss,md,mdx,json} --config ./.prettierrc.js",
     "lint:style": "stylelint --fix ./**/*.{css,scss}",
-    "lint:workflow": "npm run lint && npm run lint:style && npm run lint:prettier"
+    "lint:workflow": "npm run lint && npm run lint:style && npm run lint:prettier",
+    "prepublish": "npm run build"
   },
   "eslintConfig": {
     "extends": [

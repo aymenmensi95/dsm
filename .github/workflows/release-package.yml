@@ -38,5 +38,7 @@ jobs:
         run: |
           npm ci
           npm publish
+        with:
+          folder: build
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

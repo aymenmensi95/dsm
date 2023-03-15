@@ -19,7 +19,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm ci
-          npm run build:package
+          npm run build
 
   publish:
     needs: build
@@ -38,5 +38,7 @@ jobs:
         run: |
           npm ci
           npm publish
+        with:
+          folder: build
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

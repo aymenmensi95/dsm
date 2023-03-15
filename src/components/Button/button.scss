@@ -6,11 +6,11 @@
   cursor: pointer;
   display: inline-block;
   line-height: 1;
-}
 
-.storybook-button--primary {
-  color: #fff;
-  background-color: #1ea7fd;
+  &--primary {
+    color: #fff;
+    background-color: #1ea7fd;
+  }
 }
 
 .storybook-button--secondary {
